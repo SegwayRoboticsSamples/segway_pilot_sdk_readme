@@ -162,7 +162,8 @@ Run `./inference.sh` to show the detection result in `result_apple/.`
 ```
 
 
-# IV. Deploy the AI model (eg. Windows)
+# IV. Deploy the AI model (eg. Windows)  
+project site: https://github.com/SegwayRoboticsSamples/AIBoxSample  
 ## 1. Setup android development environment  
 ### **a. Download and install jdk-1.8.0_311, and configure the environment variables**
 i. Install JDK  
