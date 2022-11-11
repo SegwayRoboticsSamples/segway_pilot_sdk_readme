@@ -26,7 +26,8 @@ SDKs that support to develop and deploy  AI models on Segway Pilot.
 |4|Document|Github site of sample code |
 
 
-# III. Train an AI model for apple detection (eg. Ubuntu)
+# III. Train an AI model for apple detection (eg. Ubuntu)  
+Project site: https://github.com/SegwayRoboticsSamples/AppleDetectionSample  
 > Below we demonstrate how to take training an apple classification model and verify the effectivity of the model.
 
 ## 1. Labelme annotation software
@@ -162,7 +163,8 @@ Run `./inference.sh` to show the detection result in `result_apple/.`
 ```
 
 
-# IV. Deploy the AI model (eg. Windows)
+# IV. Deploy the AI model (eg. Windows)  
+Project site: https://github.com/SegwayRoboticsSamples/AIBoxSample  
 ## 1. Setup android development environment  
 ### **a. Download and install jdk-1.8.0_311, and configure the environment variables**
 i. Install JDK  
