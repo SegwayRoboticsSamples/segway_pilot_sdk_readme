@@ -6,7 +6,7 @@ SDKs that support to develop and deploy  AI models on Segway Pilot.
 # I. SDK Flow Path
 ![图片](./readme_image/SDK_Flow_Path.png)
 
-# II. Development Kit Devices (only available for Lyft)
+# II. Development Kit Devices
 ## 1. Contents of Development Kit
 ![图片](./readme_image/aibox_package.png)
 
