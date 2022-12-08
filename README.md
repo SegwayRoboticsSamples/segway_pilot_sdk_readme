@@ -6,7 +6,7 @@ SDKs that support to develop and deploy  AI models on Segway Pilot.
 # I. SDK Flow Path
 ![图片](./readme_image/SDK_Flow_Path.png)
 
-# II. Development Kit Devices (only available for Lyft)
+# II. Development Kit Devices
 ## 1. Contents of Development Kit
 ![图片](./readme_image/aibox_package.png)
 
@@ -187,6 +187,7 @@ Variable Value: %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin
 ```
 (3) Click "Apply" and "OK" to enable configuration.   
 (4) Open Terminal and enter `java -version` to confirm whether the jdk is successfully configured. The following figure shows that the configuration is successful.
+
 ![图片](./readme_image/javav.jpg)
 
 ### **b. Download Android Studio (4.0.2)**
