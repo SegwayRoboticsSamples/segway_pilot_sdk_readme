@@ -16,6 +16,7 @@ SDKs that support to develop and deploy  AI models on Segway Pilot.
 |2|Segway Pilot|1|Pilot hardware device with Android OS|
 |3|Type-c USB cable|1|Connecting PC and device for debugging|
 |4|32G USB drive|1|Built-in dataset, building software, partial document description|
+
 ## 2. USB drive contents
 ![图片](./readme_image/u_disk.jpg)  
 |SN|Content|Use|
