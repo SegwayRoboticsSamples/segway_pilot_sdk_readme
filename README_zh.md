@@ -252,7 +252,7 @@ adb以及scrcpy程序在U盘android debug文件夹下，可直接使用。
 关闭AndroidStudio，删除`C:/Adm.../.android`文件夹，然后重新打开Andorid Studio重新生成keystore文件。
 
 # 六、其他资源
-1. [Vision SDK接口文档] (https://segwayroboticssamples.github.io/docs.vision/)
+1. [Vision SDK接口文档](https://segwayroboticssamples.github.io/docs.vision/)
 
 # 七、开源许可
 Apache 2.0
