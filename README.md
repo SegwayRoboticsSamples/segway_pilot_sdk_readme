@@ -254,5 +254,8 @@ Click the button `OPEN THE CAMERA` and `START` next to start real-time apple det
 2. Solution for `Invalid keystore format` when running sample_aibox APP:  
 Close Android Studio, delete the folder `C:/Adm.../.android`, and then reopen Andorid Studio to regenerate the `keystore` file .
 
-# VI. Open source license
+# VI、Other Resources
+1. [Vision SDK API] https://segwayroboticssamples.github.io/docs.vision/
+
+# VII. Open source license
 Apache 2.0
