@@ -1,5 +1,5 @@
 
-# Segway Pilot SDK (Preview for Alpha Version)
+# Segway Pilot SDK
 ![图片](./readme_image/aibox_hardware.png)  
 SDKs that support to develop and deploy  AI models on Segway Pilot.  
 

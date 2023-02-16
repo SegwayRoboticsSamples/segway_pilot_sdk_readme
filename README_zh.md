@@ -1,5 +1,5 @@
 
-# Segway Pilot SDK (Alpha版预览)
+# Segway Pilot SDK
 ![图片](readme_image/aibox_hardware.png)
 一套支持在Segway Pilot上开发、部署AI模型的SDK。
 
@@ -71,7 +71,7 @@ code ./xx
 
 ## 3. 训练一个苹果目标检测模型
 ### **a. 按数据集格式分配数据**
-将标注人员提交的数据按照2：8分成。
+将标注人员提交的数据按照8:2分成，其中80%为训练数据集，20%为测试数据集。
 ```
 └── data
     ├── train
