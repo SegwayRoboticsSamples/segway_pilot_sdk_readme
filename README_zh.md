@@ -38,7 +38,7 @@
 ### **a. 安装miniconda**  
 在Terminal中，逐⾏输⼊命令： 
 ```
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86 _64.sh  
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh  
 chmod +x Miniconda3-latest-Linux-x86_64.sh  
 ./Miniconda3-latest-Linux-x86_64.sh  
 ```
@@ -108,7 +108,7 @@ exp_dir: "./models/experiment-AiBox-Apple-model-mbv1-0.25-20221102/"
 ```
 ii. 在终端输入下列代码，即可训练。
 ``` 
-python teacher_train.py
+python train.py
 ```
 
 ### **d. 生成.tflite文件**
@@ -221,7 +221,7 @@ ndk.dir=D\:\\android\\Sdk\\ndk\\16.1.447499 (将D:...改为你自己的安装路
 ## 3. 运行AIBoxSample到Segway Pilot
 请将训练好的AI模型命名为`apple_model.tflite`并`adb push`到`sdcard/slam_config/`目录下。
 ``` 
-adb push apple_model.tflite sdcard/slam_config
+adb push apple_model.tflite sdcard
 ```
 离线检测苹果需将以`apple.jpeg`命名的苹果图片`adb push`到`sdcard/`目录下。
 ```

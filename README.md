@@ -40,7 +40,7 @@ The annotation software site: https://github.com/wkentaro/labelme
 ### **a. Install Miniconda**  
 Run the command in Terminal line by line: 
 ```
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86 _64.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 chmod +x Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh
 ```
@@ -108,9 +108,9 @@ data_dir: "./tf_record/Apple_221019/"
 # change
 exp_dir: "./models/experiment-AiBox-Apple-model-mbv1-0.25-20221102/"
 ```
-ii. Run `teacher_train.py` in Terminal to start training.
+ii. Run `train.py` in Terminal to start training.
 ``` 
-python teacher_train.py
+python train.py
 ```
 
 ### **d. Generate .tflite file**
@@ -225,7 +225,7 @@ ndk.dir=D\:\\android\\Sdk\\ndk\\16.1.447499  (Change D:... to your installation 
 ## 3. Run AIBoxSample on Segway Pilot 
 Rename the trained AI model file to `apple_model.tflite`. Run the command below.
 ``` 
-adb push apple_model.tflite sdcard/slam_config
+adb push apple_model.tflite sdcard
 ```  
 Find a apple image from test dataset and copy it into current path. Rename the copied file to `apple.jpeg`, run the follow command.  
 ```
