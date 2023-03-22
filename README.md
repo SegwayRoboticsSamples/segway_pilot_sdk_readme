@@ -59,7 +59,7 @@ pip install -r requirment.txt
 Nvidia CUDA download site: https://developer.nvidia.com/cuda-downloads.
 Select the corresponding toolkit version according to the actual system version.
 
-Other CUDA installation tutorial references:
+Other CUDA installation tutorial references:   
 https://towardsdatascience.com/deep-learning-gpu-installation-on-ubuntu-18-4-9b12230a1d31
 
 ### **d. Download and install visual studio code compiler** 
