@@ -52,14 +52,14 @@ Run the command in Terminal line by line:
 ```  shell  
 conda create -n sidewalk_perception python==3.6.13
 conda install tensorflow-gpu==1.12.0
-pip install -r requirement.txt
+pip install -r requirment.txt
 ```  
 
 ### **c. Install CUDA**  
 Nvidia CUDA download site: https://developer.nvidia.com/cuda-downloads.
 Select the corresponding toolkit version according to the actual system version.
 
-Other CUDA installation tutorial references:   
+Other CUDA installation tutorial references:
 https://towardsdatascience.com/deep-learning-gpu-installation-on-ubuntu-18-4-9b12230a1d31
 
 ### **d. Download and install visual studio code compiler** 

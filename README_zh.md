@@ -50,7 +50,7 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 ```  shell  
 conda create -n sidewalk_perception python==3.6.13
 conda install tensorflow-gpu==1.12.0
-pip install -r requirement.txt
+pip install -r requirment.txt
 ```  
 
 ### **c. 安装cuda**  
