@@ -1,5 +1,5 @@
 
-# Segway Pilot SDK (Preview for Alpha Version)
+# Segway Pilot SDK
 ![图片](./readme_image/aibox_hardware.png)  
 SDKs that support to develop and deploy  AI models on Segway Pilot.  
 
@@ -255,5 +255,8 @@ Click the button `OPEN THE CAMERA` and `START` next to start real-time apple det
 2. Solution for `Invalid keystore format` when running sample_aibox APP:  
 Close Android Studio, delete the folder `C:/Adm.../.android`, and then reopen Andorid Studio to regenerate the `keystore` file .
 
-# VI. Open source license
+# VI、Other Resources
+1. [Vision SDK API](https://segwayroboticssamples.github.io/docs.vision/)
+
+# VII. Open source license
 Apache 2.0

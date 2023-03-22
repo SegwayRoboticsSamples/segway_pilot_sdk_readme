@@ -1,5 +1,5 @@
 
-# Segway Pilot SDK (Alpha版预览)
+# Segway Pilot SDK
 ![图片](readme_image/aibox_hardware.png)
 一套支持在Segway Pilot上开发、部署AI模型的SDK。
 
@@ -71,7 +71,7 @@ code ./xx
 
 ## 3. 训练一个苹果目标检测模型
 ### **a. 按数据集格式分配数据**
-将标注人员提交的数据按照2：8分成。
+将标注人员提交的数据按照8:2分成，其中80%为训练数据集，20%为测试数据集。
 ```
 └── data
     ├── train
@@ -251,5 +251,8 @@ adb以及scrcpy程序在U盘android debug文件夹下，可直接使用。
 2. 运行sample_aibox出现`Invalid keystore format`错误的解决办法。  
 关闭AndroidStudio，删除`C:/Adm.../.android`文件夹，然后重新打开Andorid Studio重新生成keystore文件。
 
-# 六、开源许可
+# 六、其他资源
+1. [Vision SDK接口文档](https://segwayroboticssamples.github.io/docs.vision/)
+
+# 七、开源许可
 Apache 2.0
