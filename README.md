@@ -231,7 +231,7 @@ Find a apple image from test dataset and copy it into current path. Rename the c
 ```
 adb push apple.jpeg /sdcard/
 ```
-![图片](./readme_image/sdk_sample_1.jpg)  
+![图片](./readme_image/sdk_sample_1.png)  
 ### **a. Use adb and scrcpy to debug Segway Pilot**  
 The tools `adb` and `scrcpy` can be found in the folder of the USB drive  titled `android debug`, copy it to your PC and unzip it.
 > Tips：  
@@ -241,10 +241,10 @@ The tools `adb` and `scrcpy` can be found in the folder of the USB drive  titled
 > Make sure you have already copied the `apple.jpeg` image from your PC into `sdcard/`  of Segway Pilot.  
 
 Click the button `OPEN LOCAL IMAGE` and `START` next，the apple detected will be shown with a green rect. 
-![图片](./readme_image/sdk_sample_2.jpg)
+![图片](./readme_image/sdk_sample_2.png)
 ### **c. Real-time apple detection**
 Click the button `OPEN THE CAMERA` and `START` next to start real-time apple detection, and the apple detected will be covered with a real-time green rect.
-![图片](./readme_image/sdk_sample_3.jpg)
+![图片](./readme_image/sdk_sample_3.png)
 # V. FAQ
 
 1. If the message `...path filename too long` is shown during `git clone`, run the following command in Terminal to solve this problem. 

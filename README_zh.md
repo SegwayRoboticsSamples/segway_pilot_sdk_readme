@@ -227,7 +227,7 @@ adb push apple_model.tflite /sdcard/
 ```
 adb push apple.jpeg /sdcard/
 ```
-![图片](readme_image/sdk_sample_1.jpg)  
+![图片](readme_image/sdk_sample_1.png)  
 ### **a. 使用adb和scrcpy调试Segway Pilot**  
 adb以及scrcpy程序在U盘android debug文件夹下，可直接使用。  
 > tips：  
@@ -237,10 +237,10 @@ adb以及scrcpy程序在U盘android debug文件夹下，可直接使用。
 > 离线检测苹果需将以`apple.jpeg`命名的苹果图片`adb push`到`sdcard/`目录下。  
 
 点击OPEN LOCAL IMAGE按钮，再点击START即可开启模型，进行离线检测苹果，被检测出的苹果将显示绿色边框。
-![图片](readme_image/sdk_sample_2.jpg)
+![图片](readme_image/sdk_sample_2.png)
 ### **c. 实时进行苹果检测**
 点击OPEN THE CAMERA按钮，再点击START即可开启模型，使用相机进行实时检测苹果，被检测出的苹果将显示绿色边框。
-![图片](readme_image/sdk_sample_3.jpg)
+![图片](readme_image/sdk_sample_3.png)
 # 五、常见问题
 
 1. 如果`git clone`时提示`...path filename too long`，可以在Terminal中输入以下命令解决此问题。
