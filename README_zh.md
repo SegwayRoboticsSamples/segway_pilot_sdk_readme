@@ -46,11 +46,11 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 
 ### **b. 创建训练环境** 
 在Terminal中，逐⾏输⼊命令：  
-> reqiurement.txt在工程根目录下
+> requirement.txt在工程根目录下
 ```  shell  
 conda create -n sidewalk_perception python==3.6.13
 conda install tensorflow-gpu==1.12.0
-pip install -r requirment.txt
+pip install -r requirement.txt
 ```  
 
 ### **c. 安装cuda**  

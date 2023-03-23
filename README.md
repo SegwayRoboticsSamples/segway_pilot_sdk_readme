@@ -52,7 +52,7 @@ Run the command in Terminal line by line:
 ```  shell  
 conda create -n sidewalk_perception python==3.6.13
 conda install tensorflow-gpu==1.12.0
-pip install -r requirment.txt
+pip install -r requirement.txt
 ```  
 
 ### **c. Install CUDA**  
