@@ -225,11 +225,11 @@ ndk.dir=D\:\\android\\Sdk\\ndk\\16.1.447499  (Change D:... to your installation 
 ## 3. Run AIBoxSample on Segway Pilot 
 Rename the trained AI model file to `apple_model.tflite`. Run the command below.
 ``` 
-adb push apple_model.tflite sdcard
+adb push apple_model.tflite /sdcard/
 ```  
 Find a apple image from test dataset and copy it into current path. Rename the copied file to `apple.jpeg`, run the follow command.  
 ```
-adb push apple.jpeg sdcard
+adb push apple.jpeg /sdcard/
 ```
 ![图片](./readme_image/sdk_sample_1.jpg)  
 ### **a. Use adb and scrcpy to debug Segway Pilot**  

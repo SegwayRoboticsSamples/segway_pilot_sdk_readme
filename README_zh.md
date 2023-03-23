@@ -221,11 +221,11 @@ ndk.dir=D\:\\android\\Sdk\\ndk\\16.1.447499 (将D:...改为你自己的安装路
 ## 3. 运行AIBoxSample到Segway Pilot
 请将训练好的AI模型命名为`apple_model.tflite`并`adb push`到`sdcard/slam_config/`目录下。
 ``` 
-adb push apple_model.tflite sdcard
+adb push apple_model.tflite /sdcard/
 ```
 离线检测苹果需将以`apple.jpeg`命名的苹果图片`adb push`到`sdcard/`目录下。
 ```
-adb push apple.jpeg sdcard
+adb push apple.jpeg /sdcard/
 ```
 ![图片](readme_image/sdk_sample_1.jpg)  
 ### **a. 使用adb和scrcpy调试Segway Pilot**  
