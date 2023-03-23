@@ -16,6 +16,7 @@ SDKs that support to develop and deploy  AI models on Segway Pilot.
 |2|Segway Pilot|1|Pilot hardware device with Android OS|
 |3|Type-c USB cable|1|Connecting PC and device for debugging|
 |4|32G USB drive|1|Built-in dataset, building software, partial document description|
+
 ## 2. USB drive contents
 ![图片](./readme_image/u_disk.jpg)  
 |SN|Content|Use|
@@ -39,7 +40,7 @@ The annotation software site: https://github.com/wkentaro/labelme
 ### **a. Install Miniconda**  
 Run the command in Terminal line by line: 
 ```
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86 _64.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 chmod +x Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh
 ```
@@ -107,9 +108,9 @@ data_dir: "./tf_record/Apple_221019/"
 # change
 exp_dir: "./models/experiment-AiBox-Apple-model-mbv1-0.25-20221102/"
 ```
-ii. Run `teacher_train.py` in Terminal to start training.
+ii. Run `train.py` in Terminal to start training.
 ``` 
-python teacher_train.py
+python train.py
 ```
 
 ### **d. Generate .tflite file**
@@ -224,11 +225,11 @@ ndk.dir=D\:\\android\\Sdk\\ndk\\16.1.447499  (Change D:... to your installation 
 ## 3. Run AIBoxSample on Segway Pilot 
 Rename the trained AI model file to `apple_model.tflite`. Run the command below.
 ``` 
-adb push apple_model.tflite sdcard/slam_config
+adb push apple_model.tflite /sdcard/
 ```  
 Find a apple image from test dataset and copy it into current path. Rename the copied file to `apple.jpeg`, run the follow command.  
 ```
-adb push apple.jpeg sdcard
+adb push apple.jpeg /sdcard/
 ```
 ![图片](./readme_image/sdk_sample_1.jpg)  
 ### **a. Use adb and scrcpy to debug Segway Pilot**  
